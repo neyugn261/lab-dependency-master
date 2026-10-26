@@ -1,0 +1,22 @@
+{
+  "name": "nqn-core-math-utils-102230362",
+  "version": "1.0.0",
+  "description": "Thu vien phep toan co ban cho bai thuc hanh quan ly phu thuoc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"const { add } = require('./index'); if (add(2, 3) !== 5) process.exit(1); console.log('PASS add(2, 3) = 5')\""
+  },
+  "keywords": [],
+  "author": "Nguyễn Quốc Nguyên",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
